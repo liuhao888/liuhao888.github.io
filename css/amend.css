@@ -27,8 +27,32 @@
     background-size: cover;
     top:0;left:0;
     z-index: 2;
+
+    -webkit-animation:roll 1s both;
+    -o-animation:roll 1s both;
+    animation:roll 1s both;
+}
+@-webkit-keyframes roll {
+    0%{
+        -webkit-transform: translate3d(-120px,0,0) rotateY(0deg);
+        transform: translate3d(-120px,0,0) rotateY(360deg);
+    }
+    100%{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0) rotateY(360deg);
+    }
 }
 
+@keyframes roll {
+    0%{
+        -webkit-transform: translate3d(-120px,0,0);
+        transform: translate3d(-120px,0,0) rotateY(0deg);
+    }
+    100%{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0) rotateY(360deg);
+    }
+}
 
 
 
