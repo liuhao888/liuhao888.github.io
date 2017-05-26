@@ -31,15 +31,16 @@
     position: absolute;top: 0;left: 0;
 }
 .master_info:hover .info_text{
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    display: block;
-}
-.master_info:hover .master_img{
     -webkit-transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     transform: rotateY(0deg);
+    display: block;
+}
+.master_info:hover .master_img{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    
 }
 
 .master_info .info_text{
