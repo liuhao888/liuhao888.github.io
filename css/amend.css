@@ -50,9 +50,11 @@
     font-size: 20px;
     display: none;
 
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
+
+
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
 }
 .master_info p{
     margin: 0;
@@ -65,9 +67,10 @@
     -webkit-animation:roll 2s ease-out both;
     -o-animation:roll 2s ease-out both;
     animation:roll 2s ease-out both;
-    -webkit-transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    transform: rotateY(0deg);
+
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 
 
