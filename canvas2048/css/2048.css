@@ -1,0 +1,13 @@
+p{
+    width:480px;
+    margin:0 auto;
+    padding-top:15px;
+    font-size:40px;
+    font-weight:bold;
+    font-family:Arial;
+}
+canvas{
+    position: absolute;
+    margin: 0 auto;
+    left:0;right:0;
+}
