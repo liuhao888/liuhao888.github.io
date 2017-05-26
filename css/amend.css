@@ -6,32 +6,36 @@
 
 .master_info{
     width:120px;height: 120px;
-    border-radius:50%;
     position: absolute;
     left:50%;
     margin-left:-60px;
+}
+.master_info .info_text{
+    width:120px;height: 120px;
+    border-radius:50%;
     background-color: #ccc;
     text-align: center;
     font-size: 20px;
+    display: none;
+    
 }
 .master_info p{
     margin: 0;
 }
-.master_info:before{
-    content: '';
-    display: block;
+.master_info .master_img{
     position: absolute;
     width: 120px;height:120px;
-    border-radius: 50%;
-    background: url("../images/1.jpg");
-    background-size: cover;
     top:0;left:0;
     z-index: 2;
-
     -webkit-animation:roll 2s both;
     -o-animation:roll 2s both;
     animation:roll 2s both;
 }
+.master_info .master_img{
+    width: 100%;
+    border-radius: 50%;
+}
+
 @-webkit-keyframes roll {
     0%{
         -webkit-transform: translate3d(-300px,0,0) rotateY(0deg);
