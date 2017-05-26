@@ -1,0 +1,13 @@
+.master_container{
+    position: absolute;
+}
+.master_info{
+    width:320px;height: 320px;
+    border-radius:50%;
+    position: absolute;
+    left:50%;
+    margin-left:-160px;
+    background-color: #ccc;
+    text-align: center;
+    font-size: 14px;
+}
