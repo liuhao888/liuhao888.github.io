@@ -17,7 +17,7 @@
     text-align: center;
     font-size: 20px;
     display: none;
-    
+
 }
 .master_info p{
     margin: 0;
@@ -31,7 +31,7 @@
     -o-animation:roll 2s both;
     animation:roll 2s both;
 }
-.master_info .master_img{
+.master_info .master_img img{
     width: 100%;
     border-radius: 50%;
 }
