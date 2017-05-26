@@ -27,9 +27,9 @@
     width: 120px;height:120px;
     top:0;left:0;
     z-index: 2;
-    -webkit-animation:roll 2s both;
-    -o-animation:roll 2s both;
-    animation:roll 2s both;
+    -webkit-animation:roll 2s ease-out both;
+    -o-animation:roll 2s ease-out both;
+    animation:roll 2s ease-out both;
 }
 .master_info .master_img img{
     width: 100%;
@@ -41,6 +41,14 @@
         -webkit-transform: translate3d(-300px,0,0) rotateY(0deg);
         transform: translate3d(-300px,0,0) rotateY(360deg);
     }
+    80%{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0) rotateY(360deg);
+    }
+    90%{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,20px,0) rotateY(360deg);
+    }
     100%{
         -webkit-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0) rotateY(360deg);
@@ -51,6 +59,14 @@
     0%{
         -webkit-transform: translate3d(-300px,0,0);
         transform: translate3d(-300px,0,0) rotateY(0deg);
+    }
+    80%{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0) rotateY(360deg);
+    }
+    90%{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,20px,0) rotateY(360deg);
     }
     100%{
         -webkit-transform: translate3d(0,0,0);
