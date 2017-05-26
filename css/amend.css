@@ -2,6 +2,8 @@
     position: relative;
     height: 120px;
     width: 100%;
+
+
 }
 
 .master_info{
@@ -9,7 +11,37 @@
     position: absolute;
     left:50%;
     margin-left:-60px;
+
+    perspective: 1000;
+    -webkit-perspective: 1000;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    transition: 2s;
 }
+
+.master_info .info_text,.master_info .master_img{
+    backface-visibility: hidden;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    transition: 2s;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    position: absolute;top: 0;left: 0;
+}
+.master_info:hover .info_text{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    display: block;
+}
+.master_info:hover .master_img{
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+}
+
 .master_info .info_text{
     width:120px;height: 120px;
     border-radius:50%;
@@ -18,6 +50,9 @@
     font-size: 20px;
     display: none;
 
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
 }
 .master_info p{
     margin: 0;
@@ -30,7 +65,12 @@
     -webkit-animation:roll 2s ease-out both;
     -o-animation:roll 2s ease-out both;
     animation:roll 2s ease-out both;
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
 }
+
+
 .master_info .master_img img{
     width: 100%;
     border-radius: 50%;
@@ -47,14 +87,13 @@
     }
     90%{
         -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,20px,0) rotateY(360deg);
+        transform: translate3d(0,-10px,0) rotateY(360deg);
     }
     100%{
         -webkit-transform: translate3d(0,0,0);
         transform: translate3d(0,0,0) rotateY(360deg);
     }
 }
-
 @keyframes roll {
     0%{
         -webkit-transform: translate3d(-300px,0,0);
@@ -66,7 +105,7 @@
     }
     90%{
         -webkit-transform: translate3d(0,0,0);
-        transform: translate3d(0,20px,0) rotateY(360deg);
+        transform: translate3d(0,-10px,0) rotateY(360deg);
     }
     100%{
         -webkit-transform: translate3d(0,0,0);
