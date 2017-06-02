@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>线下门店</title>
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+    <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/init.css">
+    <link rel="stylesheet" href="css/esseShop.css">
+    <link rel="stylesheet" href="css/loading.css">
+</head>
+<body>
+
+
+
+
+<div class="home" >
+    <div class="header">
+        <a href="tpl/position.html" class="header_area fff"><span>成都</span></a>
+        <div class="iptContainer">
+            请输入店铺名、品类
+
+
+        </div>
+        <div class="header_shade"></div>
+        <a href="#" class="header_home"></a>
+        <a href="#" class="header_camera"></a>
+        <ul class="header_shortcut">
+            <li>现金区</li>
+            <li>积分区</li>
+            <li>折扣区</li>
+            <li>线下服务</li>
+        </ul>
+    </div>
+    <div class="mybody">
+        <!--轮播部分-->
+        <div class="turns">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide_img"><img src="pic/01.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide_img"><img src="pic/02.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide_img"><img src="pic/01.jpg" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide_img"><img src="pic/02.png" alt=""></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!--选择分类部分-->
+        <ul class="iconList">
+            <li class="icon-01"><a href="#">美食</a></li>
+            <li class="icon-02"><a href="#">酒店</a></li>
+            <li class="icon-03"><a href="#">旅游</a></li>
+            <li class="icon-04"><a href="#">茶楼</a></li>
+            <li class="icon-05"><a href="#">养生美容</a></li>
+            <li class="icon-11"><a href="#">娱乐</a></li>
+            <li class="icon-12"><a href="#">生活</a></li>
+            <li class="icon-13"><a href="#">超市</a></li>
+            <li class="icon-14"><a href="#">汽车服务</a></li>
+            <li class="icon-15"><a href="#">其他</a></li>
+        </ul>
+
+        <div class="empty">该区域正在建设中</div>
+
+        <!--<div id="main">-->
+        <div id="comment">
+            <!------------------加载-------------------->
+            <div id="loading" class="loading">
+                <div class="loadbox">
+                    <div class="loadlogo">正在加载中...</div>
+                    <div class="loadbg"><em></em></div>
+                </div>
+            </div>
+            <!--loading-->
+
+
+            <div id="container">
+                <!--猜你喜欢部分-->
+                <div class="youLike ">
+                    <p class="plate_title youLike_title">猜你喜欢</p>
+                    <ul class="shopList">
+                        <li>
+                            <a href="tpl/detail.html">
+                                <div class="shopList_left">
+                                    <img src="pic/03.png" alt="">
+                                </div>
+                                <div class="shopList_right">
+                                    <p class="nowrap shop_name">门店的名称门店的名称门店的名</p>
+                                    <p class="nowrap shop_detail">到店消费微信支付立即赠送20%的帝九积分</p>
+                                    <p class="shop_addr">
+                                        <span class="addr nowrap">具体地址具体地址</span>
+                                        <span class="interval">3.2km</span>
+                                    </p>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="tpl/detail.html">
+                                <div class="shopList_left">
+                                    <img src="pic/04.png" alt="">
+                                </div>
+                                <div class="shopList_right">
+                                    <p class="nowrap shop_name">门店的名称门店的名称门</p>
+                                    <p class="nowrap shop_detail">到店消费扫码微信支付立即付立即赠送20%的帝九积分</p>
+                                    <p class="shop_addr">
+                                        <span class="addr nowrap">具体地址具体地址具体地地址具体地址具体地址具体地址</span>
+                                        <span class="interval">3.2km</span>
+                                    </p>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="tpl/detail.html">
+                                <div class="shopList_left">
+                                    <img src="pic/03.png" alt="">
+                                </div>
+                                <div class="shopList_right">
+                                    <p class="nowrap shop_name">门店的名称称门店的名称门店的名称</p>
+                                    <p class="nowrap shop_detail">到店消费扫码微信支付立即立即赠送20%的帝九积分</p>
+                                    <p class="shop_addr">
+                                        <span class="addr nowrap">具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址</span>
+                                        <span class="interval">3.2km</span>
+                                    </p>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="tpl/detail.html">
+                                <div class="shopList_left">
+                                    <img src="pic/04.png" alt="">
+                                </div>
+                                <div class="shopList_right">
+                                    <p class="nowrap shop_name">门店的名称门店的名称门店称门店的名称</p>
+                                    <p class="nowrap shop_detail">到店消费扫码微信支付立即赠送20%的帝九积分到店消费扫码微信支付立即赠送20%的帝九积分</p>
+                                    <p class="shop_addr">
+                                        <span class="addr nowrap">具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址</span>
+                                        <span class="interval">3.2km</span>
+                                    </p>
+                                </div>
+                            </a>
+
+                        </li>
+                    </ul>
+                    <a href="#" class="youLike_footer plate_footer">查看更多</a>
+                </div>
+
+                <!--为你推荐部分-->
+                <div class="recommend">
+                    <p class="plate_title recommend_title">为你推荐</p>
+                    <ul class="shopList">
+                        <li>
+                            <a href="tpl/detail.html">
+                                <div class="shopList_left">
+                                    <img src="pic/04.png" alt="">
+                                </div>
+                                <div class="shopList_right">
+                                    <p class="nowrap shop_name">门店的名称门店的名称门店的名称门店的名称门店的名称</p>
+                                    <p class="nowrap shop_detail">到店消费扫码微信支付立即赠送20%的帝九积分到店消费扫码微信支付立即赠送20%的帝九积分</p>
+                                    <p class="shop_addr">
+                                        <span class="addr nowrap">具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址</span>
+                                        <span class="interval">3.2km</span>
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tpl/detail.html">
+                                <div class="shopList_left">
+                                    <img src="pic/04.png" alt="">
+                                </div>
+                                <div class="shopList_right">
+                                    <p class="nowrap shop_name">门店的名称门店的名称门店的名称门店的名称门店的名称</p>
+                                    <p class="nowrap shop_detail">到店消费扫码微信支付立即赠送20%的帝九积分到店消费扫码微信支付立即赠送20%的帝九积分</p>
+                                    <p class="shop_addr">
+                                        <span class="addr nowrap">具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址具体地址</span>
+                                        <span class="interval">3.2km</span>
+                                    </p>
+                                </div>
+                            </a>
+
+                        </li>
+                    </ul>
+                    <a href="#" class="recommend_footer plate_footer">查看更多</a>
+                </div>
+
+            </div>
+            <!--container-->
+
+
+
+        </div>
+
+
+    </div>
+</div>
+
+<div class="search">
+    <div class="header">
+        <button class="header_back"></button>
+        <div class="iptContainer">
+            <input type="text" placeholder="请输入店铺名、品类">
+            <s class="deleteText"></s>
+        </div>
+        <button class="header_btn">搜索</button>
+    </div>
+
+    <div class="mybody">
+        <!--热搜板块-->
+        <div class="hot">
+            <p class="hot_title">热搜</p>
+            <ul class="hot_list">
+                <li>山珍</li>
+                <li>美容</li>
+                <li>浴足保健</li>
+                <li>山珍</li>
+                <li>美容</li>
+                <li>浴足保健</li>
+                <li>山珍</li>
+                <li>美容</li>
+                <li>浴足保健</li>
+                <li>山珍</li>
+                <li>美容</li>
+                <li>浴足保健</li>
+            </ul>
+        </div>
+
+        <!--历史搜索-->
+        <div class="history">
+            <p class="history_title">
+                历史搜索
+                <s class="deleteHis"></s>
+            </p>
+            <ul class="history_list">
+                <li>养生茶门店</li>
+                <li>超级旗舰店</li>
+                <li>大宝剑</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!--</div>-->
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/swiper-3.4.0.jquery.min.js"></script>
+<script src="js/esseShop.js"></script>
+<script src="js/init.js"></script>
+<script src="js/imagePreloading.js"></script>
+
+</body>
+</html>

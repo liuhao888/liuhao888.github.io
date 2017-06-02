@@ -1,0 +1,118 @@
+body{
+    background-color: #f0efed;
+    padding-top: 1.2rem;
+}
+
+.mybody{
+    padding: 0 .24rem;
+
+}
+.city{
+    width: 100%;
+    min-height: .88rem;
+    background-color: #fff;
+    padding-left: .33rem;
+    line-height: .88rem;
+    font-size: .33rem;
+    border-radius: 5px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.positionCity .position-loading{color:#aaa;}
+.positionCity .position-city{color:#dd2727;}
+
+.hot .hot_title{
+    height: 1.08rem;line-height: 1.08rem;
+    font-size: .27rem;
+}
+.hot .hot_list{overflow: hidden;}
+
+.hot .hot_list li{
+    margin-bottom: .2rem;
+    margin-left: 3%;
+    width: 31.3%;
+    line-height: .88rem;height: .88rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+    float: left;
+    font-size: .33rem;
+}
+.hot .hot_list li:nth-child(3n+1){margin-left: 0;}
+
+.mybody a,.search a{
+    display: block;
+    width: 100%;height: 100%;
+}
+
+
+.selectCity .city_title{
+    color:#000;
+    font-size: .27rem;
+    height: .6rem;line-height: .6rem;
+}
+.cityContainer{
+    padding:0 .33rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+ .cityContainer .city{
+    border-radius: 0;
+    padding-left: 0;
+}
+.cityContainer p:last-child{
+    border:0;
+}
+.selectBtn{
+    position: fixed;
+    right: 0;
+    /*
+    top:50%;
+    -webkit-transform: translate(0,-50%);
+    -moz-transform:translate(0,-50%) ;
+    -ms-transform: translate(0,-50%);
+    -o-transform:translate(0,-50%) ;
+    transform: translate(0,-50%);
+    */
+    bottom: 0;
+    font-size: .25rem;
+    color:#dd2727;
+    text-align: center;
+    width: .5rem;
+    height: 90%;
+}
+.selectBtn span{display: block;height: 4.34%;padding-left: .2rem;}
+.selectBtn span.active{font-size: .35rem}
+
+
+.search{padding: .24rem;display: none;padding-top: 0;}
+.search .search_back{
+    width: 15.06%;
+    background-color: transparent;
+    height: 100%;
+    position: fixed;
+    top:0;left:0;
+    z-index: 100;
+}
+.area_container .areaList{overflow: hidden;display: none;}
+.area_container .areaList a{
+    display: inline-block;
+    width: 30%;
+    height: .88rem;
+    text-align: center;
+    float: left;
+    border:1px solid #ccc;
+    border-radius: .1rem;
+    margin-left: .2rem;
+    margin-bottom: .2rem;
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,259 @@
+.home .header{background-color: #dd2727;border:none;}
+.home .header .header_area{
+    width: 20.5%;
+    height: 100%;
+    text-align: center;
+    font-size: .26rem;
+
+}
+.home .header_area span{display: inline-block}
+.home .header_area span:after{
+    float: right;
+    content: '';
+    width: .3rem;height: .88rem;
+    background: url("../images/icon.png")
+    no-repeat 0 .2rem;
+    background-size: 7.92rem;
+}
+.home .header .iptContainer{
+    width: 59%;
+    background-color: #fceaea;
+    padding-left: .6rem;
+    color:#dd2727;
+    text-align: left;
+}
+.home .header .iptContainer:before{
+    background-position-x: -.8rem;
+}
+
+
+ .header .header_camera,.header_home{
+    background: url("../images/icon.png")
+    no-repeat -1.55rem .2rem;
+    background-size: 7.92rem;
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+.header .header_home{
+    background-position-x: -2.5rem; ;
+}
+
+/*//轮播播放*/
+.swiper-container {
+    width: 100%;
+    height: 3rem;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 1;
+}
+.slide_img img ,.slide_img{
+    width: 100%;
+    height: 100%;
+}
+ .slide {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.swiper-pagination {
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.swiper-pagination span {
+    width: 0.13rem;
+    height: 0.13rem;
+    display: inline-block;
+    margin: 0 .05rem;
+    border-radius: 50%;
+    background-color: #edd9da;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+    background-color: #dd2727;
+}
+.swiper-slide {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.iconList{
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: .24rem solid #f0efed;
+    padding-bottom: .4rem;
+}
+.iconList li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    font-size: .26rem;
+    padding-top: .4rem;
+}
+.iconList li a:before{
+    display: block;
+    content: "";
+    background: url("../images/icon.png") no-repeat;
+    background-size: 7.92rem;
+    width: .9rem;height: .9rem;
+    margin: 0 auto;
+    margin-bottom: .05rem;
+}
+.iconList li a{display: block;width: 100%;height: 100%;}
+.iconList li.icon-01 a:before{background-position: .06rem -2.78rem;}
+.iconList li.icon-02 a:before{background-position: -1.44rem -2.78rem;}
+.iconList li.icon-03 a:before{background-position: -2.94rem -2.78rem;}
+.iconList li.icon-04 a:before{background-position: -4.44rem -2.78rem;}
+.iconList li.icon-05 a:before{background-position: -5.94rem -2.78rem;}
+.iconList li.icon-11 a:before{background-position: .06rem -4.26rem;}
+.iconList li.icon-12 a:before{background-position: -1.44rem -4.26rem;}
+.iconList li.icon-13 a:before{background-position: -2.94rem -4.26rem;}
+.iconList li.icon-14 a:before{background-position: -4.44rem -4.26rem;}
+.iconList li.icon-15 a:before{background-position: -5.94rem -4.26rem;}
+
+
+
+/*搜索页面*/
+.search{display: none;}
+.search ul{overflow: hidden;}
+.search .hot{
+    border-bottom: .24rem solid #f3f4f6;
+    padding-bottom: .2rem;
+    padding-right:  .24rem;
+}
+.search .hot .hot_title{
+    padding-left:  .24rem;
+    height: .8rem;
+    width: 100%;
+    padding-top: .3rem;
+    font-size: .31rem;
+    font-weight: bolder;
+}
+.search .hot_list li{
+    margin-left:  .24rem;
+    margin-top: .3rem ;
+    height: .6rem;
+    padding:0 .4rem;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    text-align: center;
+    font-size: .27rem;
+    line-height: .6rem;
+    float: left;
+}
+.search .history_title{
+    height: .84rem;line-height: .84rem;
+    width: 100%;
+    padding: 0 .24rem;
+    font-size: .31rem;
+    border-bottom: 1px solid #f0f0f0;
+    font-weight: bolder;
+}
+
+.search .history_title .deleteHis{
+    float: right;
+    width: .8rem;height: 100%;
+    background: url("../images/icon.png")
+    no-repeat .22rem -.7rem;
+    background-size: 7.92rem;
+}
+.search .history_list li{
+    padding: 0 .24rem;
+    height: .88rem;line-height: .88rem;
+    font-size: .27rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+.empty{text-align: center;line-height: 0.23rem;border-bottom: .24rem solid #f0efed;overflow: hidden;font-size: .27rem;padding: 0.48rem 0 0.45rem 0;}
+.empty:before{content: "";width: 100%;height: 2.15rem;background: url("../images/empty.png") center 0 no-repeat;background-size:49%;}
+
+.search .header>form{
+    /*display: block;*/
+    float: none;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.search .header>form>.iptContainer{float: left;  }
+
+
+
+.header .header_shortcut{
+    position: fixed;
+    top: .96rem;
+    right: .24rem;
+    background-color: #fff;
+    width: 2.3rem;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.2);
+    z-index: 11;height: 0;
+    overflow: hidden;
+}
+.header .header_shortcut li{
+    height: .8rem;line-height: .8rem;
+    font-size: .24rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+.header .header_shortcut li:before{
+    content: "";
+    display: inline-block;
+    margin-left: .25rem;
+    width: .65rem;
+    vertical-align:middle;
+    height: 100%;
+    background: url("../images/icon.png") no-repeat 0 -6.73rem;
+    background-size: 7.92rem;
+}
+
+.header .header_shortcut li:nth-child(2):before{background-position-x: -.88rem;}
+.header .header_shortcut li:nth-child(3):before{background-position-x: -1.76rem;}
+.header .header_shortcut li:nth-child(4):before{background-position-x: -2.74rem;}
+
+.header .header_shade{
+    position: fixed;
+    z-index: 10;
+    display: none;
+    top:0;left:0;
+    width: 100%;height: 100%;
+}
+
+
+

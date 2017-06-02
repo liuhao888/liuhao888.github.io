@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>城市定位</title>
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+    <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/init.css">
+    <link rel="stylesheet" href="../css/position.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <a href="javascript:history.back();" class="header_back"></a>
+        <div class="iptContainer">
+            <input type="text" placeholder="城市/行政区/拼音">
+            <s class="deleteText"></s>
+        </div>
+        <button class="header_btn">搜索</button>
+    </div>
+
+    <div class="mybody">
+        <!--定位城市-->
+        <div class="positionCity city">
+            <a href="#">
+                定位城市：
+                <span class="position-loading">定位中...</span>
+            </a>
+        </div>
+
+        <!--热门城市-->
+        <div class="hot">
+            <p class="hot_title">热门城市</p>
+            <ul class="hot_list">
+                <li><a href="#">北京市</a></li>
+                <li><a href="#">成都市</a></li>
+                <li><a href="#">杭州市</a></li>
+
+                <li><a href="#">上海市</a></li>
+                <li><a href="#">郑州市</a></li>
+                <li><a href="#">武汉市</a></li>
+
+                <li><a href="#">重庆市</a></li>
+                <li><a href="#">天津市</a></li>
+                <li><a href="#">西安市</a></li>
+            </ul>
+        </div>
+
+        <!--城市列表-->
+        <ul class="selectCity">
+            <li class="city-A">
+                <p class="city_title">A</p>
+                <div class="cityContainer ">
+                    <div class="city area_container">
+                        成都
+                        <div class="areaList">
+                            <a href="#">新都区</a>
+                            <a href="#">金牛区</a>
+                            <a href="#">郫都区</a>
+                            <a href="#">高新区</a>
+                            <a href="#">青羊区</a>
+                            <a href="#">武侯区</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <!--定位按钮-->
+        <div class="selectBtn"></div>
+
+    </div>
+
+    <!--搜索结果-->
+    <div class="search">
+        <button class="search_back"></button>
+        <div class="search_body">
+
+        </div>
+    </div>
+
+
+
+
+
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/position.js"></script>
+<script src="../js/city.js"></script>
+<script src="../js/init.js"></script>
+</body>
+</html>
