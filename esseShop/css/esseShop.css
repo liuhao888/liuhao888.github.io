@@ -96,8 +96,8 @@
 }
 
 .swiper-pagination span {
-    width: 0.13rem;
-    height: 0.13rem;
+    width: 7px;
+    height: 7px;
     display: inline-block;
     margin: 0 .05rem;
     border-radius: 50%;
@@ -246,6 +246,7 @@
 .header .header_shortcut li:nth-child(2):before{background-position-x: -.88rem;}
 .header .header_shortcut li:nth-child(3):before{background-position-x: -1.76rem;}
 .header .header_shortcut li:nth-child(4):before{background-position-x: -2.74rem;}
+.header .header_shortcut li:last-child{border:0;}
 
 .header .header_shade{
     position: fixed;

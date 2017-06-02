@@ -30,11 +30,20 @@ $(function () {
         if(isShow){
             var ndLi=ndUl.children('li');
             ulHeight=ndLi.length*(parseFloat(ndLi.css("height")));
+
+            ndUl.show().animate({
+                height:ulHeight+"px"
+            });
+        }else {
+
+            ndUl.animate({
+                height:ulHeight+"px"
+            },function () {
+                this.hide();
+            }.bind(ndUl));
         }
 
-        ndUl.animate({
-            height:ulHeight+"px"
-        });
+
 
     }
     $(".header .header_shade").click(shortcutSwitch.bind(this,false));
