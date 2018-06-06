@@ -7,7 +7,7 @@ title: Ted
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Ted.H.Liu
 language:
 timezone:
 
@@ -90,11 +90,6 @@ post_menu_button: light
 
 ## 标题占位字：无标题类型文章的标题占位字
 title_plancehold: '随笔'
-
-## 自定义菜单
-navication:
-  - name: Lalala.lol
-    link: http://lalala.lol
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
