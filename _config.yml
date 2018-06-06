@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Ted
 subtitle:
 description:
 keywords:
@@ -73,8 +73,28 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: casper
+theme: hexo-theme-laughing
 
+favicon: /favicon.ico
+## 页面背景
+page_background: /default_images/page_background.jpg
+
+## 页面菜单按钮风格
+page_menu_button: dark
+
+## 文章背景
+post_background: /default_images/post_background.jpg
+
+## 文章菜单按钮风格
+post_menu_button: light
+
+## 标题占位字：无标题类型文章的标题占位字
+title_plancehold: '随笔'
+
+## 自定义菜单
+navication:
+  - name: Lalala.lol
+    link: http://lalala.lol
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
