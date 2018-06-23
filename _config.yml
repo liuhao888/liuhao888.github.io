@@ -1,7 +1,7 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+favicon: /favicon.ico
 # Site
 title: Ted
 subtitle:
@@ -75,7 +75,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: hexo-theme-laughing
 
-favicon: /favicon.ico
 ## 页面背景
 page_background: /default_images/page_background.jpg
 
