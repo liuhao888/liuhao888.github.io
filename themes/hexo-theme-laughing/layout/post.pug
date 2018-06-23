@@ -36,3 +36,19 @@ block content
       li
         a(href=url_for(page.next.path))
           i.icon.icon-arror-right
+
+  div#comment.article-meta(style='max-width:'+ theme.content_width +'px')
+  script(src="//cdn1.lncld.net/static/js/3.0.4/av-min.js")
+  script(src="//unpkg.com/valine/dist/Valine.min.js")
+
+  script.
+    new Valine({
+      el: '#comment' ,
+      notify:true, 
+      verify:true, 
+      appId: 'zi2IziPniF42fFUuk0XQCd0F-gzGzoHsz',
+      appKey: 'KW2nxA3vosR7VJDnzbb92kiT',
+      placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+      path:window.location.pathname, 
+      avatar:'wavatar' 
+    });    
